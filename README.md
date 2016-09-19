@@ -14,7 +14,7 @@
 
 <h2>截图与体验</h2>
 
-<img src="https://o84ufofgw.qnssl.com/yokeneng/pm2048.png" alt="Screenshot"/>
+<img src="https://o84ufofgw.qnssl.com/yokeneng/pm2048.png" alt="Screenshot" width="500" />
 
 <p>体验链接：<a href="https://2048.yokeneng.com/pm/">有可能学院 PM 2048</a></p>
 

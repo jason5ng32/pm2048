@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>产品经理被虐之路，看你能汪多少下</title>
+  <meta name="description"  content="一个给产品经理玩的 2048 小游戏。" />
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">产品汪，汪汪~</h1>
+
+          <div class="above-game">
+      <p class="game-intro">面对各种被虐，看你能汪多少次</p>
+    </div>
+
+<!--   <div class="dog" style="text-align:center">
+    <img src="https://o84ufofgw.qnssl.com/kenengba/dog.png" height="100px">
+  </div> -->
+
+
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">继续玩</a>
+          <a class="retry-button">再来一次</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+          <div class="qrcode">
+      <img src="https://o84ufofgw.qnssl.com/kenengba/qrcode.jpg" height="85px" />
+    </div>
+<p style="font-size:13px;text-align:center;line-height:14px;padding-top:0.3em;"><strong>可能吧</strong>出品</p>
+    <p class="game-explanation">    
+
+      <strong class="important">怎样玩：</strong> 在方框内用手指左右滑动来移动和合并方块，或在电脑上使用方向键来操作。
+    </p>
+    <hr>
+
+    
+    <p style="text-align:center;"><span style="color:#555">阿禅 Jason Ng</span> 修改自开源程序 <a href="http://git.io/2048" target="_blank">2048</a>，灵感来自<a href="http://www.giveonesecondto.me/ha2/" target="_blank">蛤</a>
+    </p>
+
+    <p style="font-size:12px;text-align:center;">关注「可能吧」，或许能提高姿势水平<br/>围观 <a href="https://www.yokeneng.com" target="_blank">有可能学院</a></p>
+
+    <div id="wx_logo" style="margin:0 auto;display:none;">
+      <img src="https://o84ufofgw.qnssl.com/kenengba/dog.png" />
+    </div>
+
+    
+<hr>
+        <p>
+    
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78690339-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

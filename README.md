@@ -25,10 +25,10 @@
 <p>Other notable contributors:</p>
 
 <ul>
-	<li><a href="">TimPetricola</a>(https://github.com/TimPetricola) added best score storage</li>
-	<li><a href="">chrisprice</a>(https://github.com/chrisprice) added custom code for swipe handling on mobile</li>
-	<li><a href="">marcingajda</a>(https://github.com/marcingajda) made swipes work on Windows Phone</li>
-	<li><a href="">mgarciaisaia</a>(https://github.com/mgarciaisaia) added support for Android 2.3</li>
+    <li><a href="">TimPetricola</a>(https://github.com/TimPetricola) added best score storage</li>
+    <li><a href="">chrisprice</a>(https://github.com/chrisprice) added custom code for swipe handling on mobile</li>
+    <li><a href="">marcingajda</a>(https://github.com/marcingajda) made swipes work on Windows Phone</li>
+    <li><a href="">mgarciaisaia</a>(https://github.com/mgarciaisaia) added support for Android 2.3</li>
 </ul>
 
 <p>Many thanks to <a href="">rayhaanj</a>(https://github.com/rayhaanj), <a href="">Mechazawa</a>(https://github.com/Mechazawa), <a href="">grant</a>(https://github.com/grant), <a href="">remram44</a>(https://github.com/remram44) and <a href="">ghoullier</a>(https://github.com/ghoullier) for the many other good contributions.</p>
